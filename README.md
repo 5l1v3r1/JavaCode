@@ -97,7 +97,7 @@ System.out.println(x > y); // returns true, because 10 is higher than 9
 }
 }
 ```
-> Hasilnya
+> Hasilnya:
 tru
 + **Menggunakan IF dan Else**
 ```java
