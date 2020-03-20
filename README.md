@@ -1,6 +1,6 @@
 # JavaCode:
 Java adalah satu set perangkat lunak komputer dan spesifikasi yang dikembangkan oleh Sun Microsystems, yang kemudian diakuisisi oleh Oracle Corporation, yang menyediakan sistem untuk mengembangkan aplikasi perangkat lunak dan menerapkan hal itu dalam sebuah cross-platform lingkungan komputasi.
-*Contoh sederhana:*
+*Contoh dasar:*
 + **Menapilkan Teks Pada Java**
 ```java
 public class MyClass {
@@ -141,8 +141,102 @@ System.out.println(i);
 }
 }
 }
+```
 > Hasilnya:
 0
 1
 2
 3
++ **Menggunakan Array**
+```java
+public class MyClass {
+public static void main(String[] args) {
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+System.out.println(cars[0]);
+}
+}
+```
+> Hasilnya:
+Opel
++ **Menggunakan Method**
+```java
+public class MyClass {
+static void myMethod() {
+System.out.println("I just got executed!");
+}
+
+
+public static void main(String[] args) {
+myMethod();
+myMethod();
+myMethod();
+}
+}
+```
+> Hsilnya:
+I just got executed
++ **Menggunakan Class / Object**
+```java
+public class MyClass {
+int x = 5;
+public static void main(String[] args) {
+
+MyClass myObj = new MyClass();
+System.out.println(myObj.x);
+}
+}
+```
+> Hsilnya:
+5
++ **Menggunakan Class Atribut**
+```java
+public class MyClass {
+int x;
+
+
+public static void main(String[] args) {
+MyClass myObj = new MyClass();
+myObj.x = 40;
+System.out.println(myObj.x);
+}
+}
+```
+> Hsilnya:
+40
++ **Menggunakan Class Method**
+```java
+public class MyClass {
+static void myMethod() {
+System.out.println("Hello World!");
+}
+
+
+public static void main(String[] args) {
+myMethod();
+}
+}
+```
+> Hsilnya:
+Hello World !
++ **Menggunakan Constructors
+```java
+// Create a MyClass class
+public class MyClass {
+int x;
+
+// Create a class constructor for the MyClass class
+public MyClass() {
+x = 5;
+}
+
+public static void main(String[] args) {
+MyClass myObj = new MyClass();
+System.out.println(myObj.x);
+}
+}
+```
+> Hasilnya:
+5
+# Penutup:
+Itulah Contoh Pemrograman Java Dasar yang bisa kamu pelajari secara lebih lanjut. Semoga bermanfaat dan jangan lupa tekan Bintang ★ Start
