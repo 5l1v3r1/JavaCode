@@ -9,7 +9,7 @@ public class MyClass {
   }
 }
 ```
-> Hasilnya ```Hello World```
+> Hasilnya: Hello World
 + **Menuliskan Komentar**
 ```java
 public class MyClass {
@@ -19,7 +19,7 @@ public class MyClass {
 }
 ```
 
-> Hasilnya ```Hello World```
+> Hasilnya: Hello World
 + **Menggunakan Variabel**
 ```java
 public class MyClass {
@@ -49,11 +49,63 @@ public class MyClass {
   }
 }
 ```
-> Hasilnya 
-```
+> Hasilnya:
 5
 5.99
 D
 true
 Hello
++ **Menggunakan Operator**
+```java
+public class MyClass {
+  public static void main(String[] args) {
+    int sum1 = 100 + 50;
+    int sum2 = sum1 + 250;
+    int sum3 = sum2 + sum2;
+    System.out.println(sum1);
+    System.out.println(sum2);
+    System.out.println(sum3); 
+  }
+}
 ```
+> Hasilnya:
+150
+400
+800
++ **Menggunakan String**
+```jav
+public class MyClass {
+public static void main(String[] args) {
+String txt = "Hello World";
+System.out.println(txt.toUpperCase());
+System.out.println(txt.toLowerCase());
+}
+}
+```
+> Hsilnya:
+HELLO WORLD
+hello world
++ **Menggunakan Boolean**
+```java
+public class MyClass {
+public static void main(String[] args) {
+int x = 10;
+int y = 9;
+System.out.println(x > y); // returns true, because 10 is higher than 9
+}
+}
+```
+> Hasilnya
+tru
++ **Menggunakan IF dan Else**
+```java
+public class MyClass {
+public static void main(String[] args) {
+if (20 > 18) {
+System.out.println("20 is greater than 18"); // obviously
+}
+}
+}
+```
+> Hasilnya:
+20 is greater than 18
