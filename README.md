@@ -25,15 +25,15 @@ Hello World
 ```java
 public class MyClass {
   public static void main(String[] args) {
-    String firstName = "Cinta ";
-    String lastName = "Kamu ";
+    String firstName = "Love ";
+    String lastName = "You ";
     String fullName = firstName + lastName;
     System.out.println(fullName); 
   }
 }
 ```
 > Hasilnya:
-Cinta Kamu
+Love You
 + **Menggunakan Tipe Data**
 ```java
 public class MyClass {
@@ -75,7 +75,7 @@ public class MyClass {
 400
 800
 + **Menggunakan String**
-```jav
+```java
 public class MyClass {
 public static void main(String[] args) {
 String txt = "Hello World";
@@ -98,7 +98,7 @@ System.out.println(x > y); // returns true, because 10 is higher than 9
 }
 ```
 > Hasilnya:
-tru
+true
 + **Menggunakan IF dan Else**
 ```java
 public class MyClass {
@@ -166,7 +166,6 @@ static void myMethod() {
 System.out.println("I just got executed!");
 }
 
-
 public static void main(String[] args) {
 myMethod();
 myMethod();
@@ -175,7 +174,7 @@ myMethod();
 }
 ```
 > Hsilnya:
-I just got executed
+I just got executed!
 + **Menggunakan Class / Object**
 ```java
 public class MyClass {
@@ -194,7 +193,6 @@ System.out.println(myObj.x);
 public class MyClass {
 int x;
 
-
 public static void main(String[] args) {
 MyClass myObj = new MyClass();
 myObj.x = 40;
@@ -210,7 +208,6 @@ public class MyClass {
 static void myMethod() {
 System.out.println("Hello World!");
 }
-
 
 public static void main(String[] args) {
 myMethod();
