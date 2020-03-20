@@ -9,7 +9,8 @@ public class MyClass {
   }
 }
 ```
-> Hasilnya: Hello World
+> Hasilnya:
+Hello World
 + **Menuliskan Komentar**
 ```java
 public class MyClass {
@@ -18,8 +19,8 @@ public class MyClass {
   }
 }
 ```
-
-> Hasilnya: Hello World
+> Hasilnya:
+Hello World
 + **Menggunakan Variabel**
 ```java
 public class MyClass {
@@ -31,7 +32,8 @@ public class MyClass {
   }
 }
 ```
-> Hasilnya ```Cinta Kamu```
+> Hasilnya:
+Cinta Kamu
 + **Menggunakan Tipe Data**
 ```java
 public class MyClass {
@@ -109,3 +111,38 @@ System.out.println("20 is greater than 18"); // obviously
 ```
 > Hasilnya:
 20 is greater than 18
++ **Menggunakan While Loop**
+```java
+public class MyClass {
+public static void main(String[] args) {
+int i = 0;
+while (i < 5) {
+System.out.println(i);
+i++;
+}
+}
+}
+```
+> Hasilnya:
+0
+1
+2
+3
+4
++ **Menggunakan Break**
+```java
+public class MyClass {
+public static void main(String[] args) {
+for (int i = 0; i < 10; i++) {
+if (i == 4) {
+break;
+}
+System.out.println(i);
+}
+}
+}
+> Hasilnya:
+0
+1
+2
+3
