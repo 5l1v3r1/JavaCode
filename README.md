@@ -237,3 +237,4 @@ System.out.println(myObj.x);
 5
 # Penutup:
 Itulah Contoh Pemrograman Java Dasar yang bisa kamu pelajari secara lebih lanjut. Semoga bermanfaat dan jangan lupa tekan Bintang ★ Start
+>**Created by Nedi Senja**
