@@ -1,5 +1,6 @@
 <h1> JavaCode</h1>
 <h4> Java adalah satu set perangkat lunak komputer dan spesifikasi yang dikembangkan oleh Sun Microsystems, yang kemudian diakuisisi oleh Oracle Corporation, yang menyediakan sistem untuk mengembangkan aplikasi perangkat lunak dan menerapkan hal itu dalam sebuah cross-platform lingkungan komputasi</h4>
+
 *Contoh dasar:*
 + **Menapilkan Teks Pada Java**
 ```java
